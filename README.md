@@ -1,14 +1,15 @@
-# Android Device configuration for Motorola G9 Plus
+# Android Device configuration for Motorola Moto G9 Plus
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Octa-core (2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver)
-CHIPSET | Qualcomm sm6150 Snapdragon 730G
+CHIPSET | Qualcomm SM6150 Snapdragon 730G
 GPU     | Adreno 618
 Memory  | 4 / 6GB
-Shipped Android Version | 10
+Shipped Android Version | 10 (Q)
+Updated Android Version | 11 (R)
 Storage | 128GB
 Battery | 5000 mAh
 Dimensions | 170 x 78.1 x 9.7 mm
