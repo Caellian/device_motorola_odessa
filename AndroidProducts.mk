@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_odessa.mk
+    $(LOCAL_DIR)/wave_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_odessa-eng \
-    lineage_odessa-user \
-    lineage_odessa-userdebug
+    wave_odessa-eng \
+    wave_odessa-user \
+    wave_odessa-userdebug
