@@ -21,12 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from odessa device
 $(call inherit-product, device/motorola/odessa/device.mk)
 
-# Inherit some common WaveOS stuff.
-$(call inherit-product, vendor/wave/configs/common.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := wave_odessa
+PRODUCT_NAME := arrow_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus

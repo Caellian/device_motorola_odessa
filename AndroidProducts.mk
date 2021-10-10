@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_odessa.mk
+    $(LOCAL_DIR)/arrow_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_odessa-eng \
-    wave_odessa-user \
-    wave_odessa-userdebug
+    arrow_odessa-eng \
+    arrow_odessa-user \
+    arrow_odessa-userdebug
