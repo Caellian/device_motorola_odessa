@@ -31,7 +31,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-	NoCutoutOverlay
+	NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay
 
 # Audio
 PRODUCT_COPY_FILES += \
