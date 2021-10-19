@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_odessa.mk
+    $(LOCAL_DIR)/aosp_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_odessa-eng \
-    arrow_odessa-user \
-    arrow_odessa-userdebug
+    aosp_odessa-eng \
+    aosp_odessa-user \
+    aosp_odessa-userdebug
