@@ -519,6 +519,11 @@
         <path name="deep-buffer-playback speaker" />
     </path>
 
+    <path name="deep-buffer-playback speaker-and-usb-headset">
+        <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback usb-headset" />
+    </path>
+
     <path name="deep-buffer-playback speaker-safe-and-usb-headphones">
         <path name="deep-buffer-playback usb-headphones" />
         <path name="deep-buffer-playback speaker" />
@@ -616,6 +621,11 @@
     <path name="low-latency-playback speaker-and-usb-headphones">
         <path name="low-latency-playback usb-headphones" />
         <path name="low-latency-playback speaker" />
+    </path>
+
+    <path name="low-latency-playback speaker-and-usb-headset">
+        <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback usb-headset" />
     </path>
 
     <path name="low-latency-playback speaker-safe-and-usb-headphones">
@@ -727,6 +737,11 @@
     <path name="compress-offload-playback speaker-and-usb-headphones">
         <path name="compress-offload-playback usb-headphones" />
         <path name="compress-offload-playback speaker" />
+    </path>
+
+    <path name="compress-offload-playback speaker-and-usb-headset">
+        <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback usb-headset" />
     </path>
 
     <path name="compress-offload-playback speaker-safe-and-usb-headphones">
@@ -1048,6 +1063,14 @@
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
     </path>
 
+    <path name="voicemmode1-call speaker-and-usb-headphones">
+        <path name="voicemmode1-call usb-headphones" />
+    </path>
+
+    <path name="voicemmode1-call speaker-and-usb-headset">
+        <path name="voicemmode1-call usb-headset" />
+    </path>
+
     <path name="voicemmode1-call bt-sco">
         <ctl name="SLIM_7_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer SLIM_7_TX_MMode1" value="1" />
@@ -1101,6 +1124,14 @@
     <path name="voicemmode2-call headphones">
         <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
+    </path>
+
+    <path name="voicemmode2-call speaker-and-usb-headphones">
+        <path name="voicemmode2-call usb-headphones" />
+    </path>
+
+    <path name="voicemmode2-call speaker-and-usb-headset">
+        <path name="voicemmode2-call usb-headset" />
     </path>
 
     <path name="voicemmode2-call bt-sco">
@@ -1413,6 +1444,10 @@
         <ctl name="ADC1 Volume" value="8" />
     </path>
 
+    <path name="handset-mic-top">
+         <path name="amic3" />
+    </path>
+
     <path name="headphones">
         <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
         <ctl name="RX_MACRO RX1 MUX" value="AIF1_PB" />
@@ -1527,7 +1562,7 @@
     </path>
 
     <path name="voice-rec-mic">
-        <path name="handset-mic" />
+        <path name="speaker-mic" />
     </path>
 
     <path name="camcorder-mic">
